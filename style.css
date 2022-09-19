@@ -1,12 +1,35 @@
 * {
     box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
+    margin: 2px;
+    padding: 10px;
   }
 
 body {
   font: 1.0em/1.6 'Inconsolata', monospace;
-  color:  #131312;
-  font-weight: 400;
-  background-color: rgb(238, 255, 0);
+  color: #cccecf;
+  font-weight: 800;
+  background-color: rgb(113, 31, 233);
+  background-image: url("img/bg/roos.jpg");
 }
+
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15vw;
+    min-width: 200px;
+  }
+
+#residents{
+  text-align: center;
+  color: rgb(238, 238, 230);
+  text-shadow:#ff0;
+  font: 1.0em/1.6 'Inconsolata', monospace;
+}
+a{text-decoration: none;
+  color: #ff0;}
+
+#adress{position: absolute;
+  left: 2vw;
+  bottom: 2vh;
+    }
