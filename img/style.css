@@ -10,6 +10,8 @@ body {
   font-weight: 800;
   background-color: rgb(113, 31, 233);
   background-image: url("img/bg/roos.jpg");
+  justify-content: center;
+  width: 100%;
 }
 
 #logo {
