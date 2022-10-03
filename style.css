@@ -60,15 +60,15 @@ body {
 
 
 .section{
-  border: 2px solid #a8ac2d;
+  border: 2px solid #249de6;
   border-radius:6px;
   display: flex;
   flex-direction: column;
   padding: 5px;
   margin-bottom:6px;
   margin-bottom: 6px;
-  color: #b0d6d9;
-  background-color: #e4f70121;;
+  color: #dddedd;
+  background-color: #090909e6;
 }
 
 #logo {
@@ -87,7 +87,7 @@ body {
 }
 
 .resident{
-background-color: #00ff11;
+background-color: #b6c1b6;
 color: black;
 border-radius: 0px;
 border: none;
@@ -96,6 +96,15 @@ padding-left: 1px;
 padding-left: 6px;
 }
 
+.resident:hover{
+  background-color: #d8de2d;
+  color: black;
+  border-radius: 0px;
+  border: none;
+  padding: 1px;
+  padding-left: 1px;
+  padding-left: 6px;
+  }
 
 
 a{text-decoration: none;
